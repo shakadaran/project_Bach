@@ -10,32 +10,23 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <div id="banner">
-            <img  src="Images/Banner+2+x+4_FB-01.jpg" alt="banner" style="">
+        <div class="all">
+            <div class="lefter">
+                <div class="text">My Account</div>
+            </div>
+            
+            <div class="center" onclick="location.href='WorldMap.php';">
+                <div class="explainer"><span>Play!</span></div>
+                <div class="text" >Global Map</div>
+            </div>
+            
+            <div class="righter">
+                <div class="text">Leaderboard</div>
+            </div>
         </div>
-        <ul>
-            <li><a class="active" href="index.php">Home</a></li>
-            <li class="dropdown">
-                <a href="#" class="dropbtn">Tests</a>
-                <div class="dropdown-content">
-                    <a href="mockquestion.php">Mock Test</a>
-                    <a href="">Testing</a>                    
-                </div>
-            </li>
-            <li class="dropdown">
-                <a href="#" class="dropbtn">Courses</a>
-                <div class="dropdown-content">
-                    <a href="text1.php">Fallacy 1</a>
-                    <a href="text2.php">Fallacy 2</a>
-                </div>
-            </li>           
 
-           
-            <li class="dropdown-logout">
-                <a href="../project1/includes/logout.php" class="dropbtn">Logout</a>                
-            </li>
-
-        </ul>
+     
+     
 
     </body>
 </html>

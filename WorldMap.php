@@ -22,26 +22,11 @@ and open the template in the editor.
         <div style="top:10px;position:fixed"><?php
             include_once './includes/Menu.php';
             ?></div>
-        <div class="content">
-            <?php if (login_check($mysqli) == true) : ?>
-                <p>Welcome <?php echo htmlentities($_SESSION['username']); ?>
-                </p>
-                <p>
-                    <?php $userdate=$_SESSION['user_id'] ."_". date("Y-m-d");
-                    echo htmlentities($userdate) ?>!</p>
 
 
 
-            </p> <?php else : ?>
-            <p>
-                <span class="error"></span> Please <a href="LoginPage.php">login</a>.
-            </p>
-        <?php endif; ?>
-
-
-    </div>
-
-</body>
+        <div class="iactiveImg" data-ii="12020"style="position:fixed ;width: 60%; height: auto ;bottom:10px "></div><script src="https://interactive-img.com/js/include.js"></script>
+    </body>
 
 
 </html>
